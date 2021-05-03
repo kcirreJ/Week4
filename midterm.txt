@@ -1,0 +1,60 @@
+Midterm answers
+
+Problem 1: 
+
+turn left
+move
+turn right
+move
+while !beeperspresent check if, (Karel's front is not blocked, place a beeper and move, or else turn around and move) else break
+turn right
+move
+while !beeperspresent check if, (Karel's front is not blocked, place a beeper and move, or else turn around and move) else break
+turn right
+move
+while !beeperspresent check if, (Karel's front is not blocked, place a beeper and move, or else turn around and move) else break
+turn right
+move
+while !beeperspresent check if, (Karel's front is not blocked, place a beeper and move, or else turn around and move) else break
+
+Problem 2:
+
+a:
+
+5.0 / 4 - 4 / 5 = 0.45
+
+7 < 9 - 5 && 3 % 0 == 3 =  error, can't divide by 0
+
+"B" + 8 + 4 = "B" + 12
+
+b: 
+
+78, 73
+
+Probelm 3: 
+
+set the value to read a given integer
+if the value is equivalent to the sentinel (0) break
+
+else
+
+set integer for the largest number to value
+set integer for smallest number to value
+set integer for 2nd largest number to value
+if the given value is equivalent to 0 break
+if the given value is less than the smallest number set the value to the smallest number
+else
+if the given value is greater than the largest number set the value to the largest number
+if the given value is greater than the smallest value and less than or equal to the largest number set the value to the 2nd largest number
+print largest number
+print 2nd largest number
+
+Problem 4:
+
+Problem 5:
+
+put the given string into an array
+run through the array using a for loop
+for each character check if it is equivalent to the previous character
+if it is not then add it to a new string
+print out the new string
